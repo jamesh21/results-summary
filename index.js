@@ -17,7 +17,7 @@ function populateList(data) {
         const categorySpan = document.createElement('span');
         categorySpan.style.color = element.textColor;
 
-        categorySpan.classList.add('summary-list-container', 'bold');
+        categorySpan.classList.add('bold');
         categorySpan.innerHTML = element.category;
         const scoreSpan = document.createElement('span');
         scoreSpan.classList.add('summary-list-score');
